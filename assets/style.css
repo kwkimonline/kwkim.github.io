@@ -168,3 +168,10 @@ a:hover{ text-decoration:underline; }
   .page{ padding: 26px 16px 36px; }
   .section{ margin-top: 24px; }
 }
+
+.paperDesc a{
+  font-size: 0;        /* 텍스트(= [PDF])만 안 보이게 */
+}
+.paperDesc a::after{
+  content: "";         /* 아무것도 표시 안 함 */
+}
