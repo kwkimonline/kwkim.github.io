@@ -140,7 +140,8 @@ a:hover{ text-decoration:underline; }
   margin: 0;
   color: var(--muted);
 }
-.paperDesc a{ font-weight: 700; }
+.paperDesc{ display:none; }
+/* .paperDesc a{ font-weight: 700; } */
 
 /* 썸네일 완전 제거(혹시 HTML에 남아있어도 숨김) */
 .thumb{ display:none !important; }
@@ -169,9 +170,3 @@ a:hover{ text-decoration:underline; }
   .section{ margin-top: 24px; }
 }
 
-.paperDesc a{
-  font-size: 0;        /* 텍스트(= [PDF])만 안 보이게 */
-}
-.paperDesc a::after{
-  content: "";         /* 아무것도 표시 안 함 */
-}
