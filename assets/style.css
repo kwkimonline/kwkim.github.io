@@ -90,8 +90,8 @@ a:hover{ text-decoration:underline; }
   margin: 0 0 12px;
 }
 
-/* Activities list */
-.activities{
+/* Events list */
+.events{
   list-style:none;
   padding:0;
   margin:0;
@@ -99,7 +99,7 @@ a:hover{ text-decoration:underline; }
   gap: 8px;
   font-size: 14px; /* 16 -> 14 */
 }
-.activities .date{
+.events .date{
   font-weight: 800;
   margin-right: 10px;
 }
